@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Set n Clear TimeOut and Interval</title>
+</head>
+<body>
+    <div class="container">
+        This is a Container
+        <br>
+        <span id="time">The time is </span>
+    </div>
+    <script>
+        console.log("This is a container")
+        // setTimeout -- runs function once
+        // clearTimeout -- func runs repeatedly
+        
+        function greet(name , byetext){
+            console.log("Hello! Good Morning " + name + "! " + byetext)
+        }
+        // Runs function after some interval, 5000ms = 5s
+        // setTimeout(greet,5000)
+
+        // setTimeout(greet(),5000) --  Calling the func is wrong move
+        // setTimeout(greet("Savitaar", "TakeCare!"),5000) --  Calling the func is wrong move
+        
+        // returning the id in console and getting func too
+        // timeoutId = setTimeout(greet,5000)
+        // console.log(timeout)
+
+        // clearTimeout(timeout) -- to not return anything, We can also write it in console
+
+        setTimeout(greet,1000, "Savitaar", "TakeCare!")
+
+        // gives the num on side as for same o/p in greet func
+        // setInterval(greet, 2000 , "Savitaar", "TakeCare!");
+
+        function displayTime(){
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time
+        }
+        // gives diff o/p in displayTime func
+        setInterval(displayTime , 1000);
+
+    </script>
+</body>
+</html>

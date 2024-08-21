@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM(Docx Obj Model)</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li class="list">Home</li>
+            <li class="list">Services</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>More about us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+    </div>
+    <script>
+        let main = document.getElementById('main')
+        console.log(main)
+
+        let nav = document.getElementById('nav')
+        console.log(nav)
+
+        let containers = document.getElementsByClassName('container')
+        console.log(containers)
+
+        let ol = document.getElementsByClassName('list')
+        console.log(ol) 
+        // First element of List
+        // let sel = document.querySelector('#nav>li')
+        // console.log(sel)
+
+        let sel = document.querySelectorAll('#nav>li')
+        console.log(sel)
+        
+        // let sel = document.querySelectorAll('#nav>li')
+        // console.log(sel[2])
+        // Can also use the same command in Console
+    </script>
+</body>
+</html>
