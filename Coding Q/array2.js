@@ -21,7 +21,10 @@ const data = [
 
 const foodItems = (data) => {
     const newData = data.filter(item => item.category=="Food")
-    .map(({ itemName, price }) => ({ itemName, price }))
+    .map((e)=>({
+        item: e.itemName,
+        price: e.price
+    }))
     return newData
 }
 

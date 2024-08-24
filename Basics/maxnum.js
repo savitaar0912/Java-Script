@@ -5,14 +5,13 @@
 // }
 
 const findMaxNumber = (arr) => {
+    let maxVal = 0;
     for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length; j++) {
-            if(arr[j]>arr[j+1]){
-                const temp = arr[j]
-                return temp
-            }
+        if (arr[i] > maxVal) {
+            maxVal = arr[i];
         }
     }
+    return maxVal;
 }
 
 arr = [1,2,6,9,4]
