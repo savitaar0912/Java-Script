@@ -31,3 +31,6 @@ const descend = (arr) => {
 }
 
 console.log(descend(a))
+
+console.log(a.sort((a,b)=>a-b))
+console.log(a.sort((a,b)=>b-a))
