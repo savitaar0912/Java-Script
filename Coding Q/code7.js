@@ -5,11 +5,11 @@ const merged = [...num1, ...num2].sort((a, b) => a - b);
 const len = merged.length;    
 console.log(num1)
 var median
-if(merged.length%2!=0){
-    median = merged[Math.floor(merged.length/2)]
+if(len%2!=0){
+    median = merged[Math.floor(len/2)]
 }
 else{
-    median = (merged[Math.floor(merged.length/2)] + merged[(Math.floor(merged.length/2))-1])/2
+    median = (merged[Math.floor(len/2)] + merged[(Math.floor(len/2))-1])/2
 }
 
 console.log(median)

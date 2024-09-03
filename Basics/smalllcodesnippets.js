@@ -19,3 +19,7 @@ console.log('8'+1)
 console.log('3'-1)
 console.log(8>3>1)
 console.log(8<3<1)
+
+const newUser = { name: "John Doe", email: "john@example.com" }
+newUser.name = "Jane Doe";
+console.log(newUser)
