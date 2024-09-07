@@ -1,5 +1,6 @@
 // will return false as addition takes 16 digit & it'll not be eq.
 console.log(0.1+0.2===0.3 )
+console.log((0.1+0.2===0.3 ) < Number.EPSILON)
 
 // 1*(8^1) + 5*(8^0) and so on
 console.log(0015)
