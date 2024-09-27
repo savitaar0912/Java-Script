@@ -69,7 +69,8 @@
         hrs = new Date().getHours();
         mins = new Date().getMinutes();
         sec = new Date().getSeconds();
-        const formattedTime = `${hrs.toString().padStart(2, "0")} : ${mins.toString().padStart(2, "0")} : ${sec.toString().padStart(2, "0")}`;
+        // const formattedTime = `${hrs.toString().padStart(2, "0")} : ${mins.toString().padStart(2, "0")} : ${sec.toString().padStart(2, "0")}`;
+        const formattedTime = `${hrs} : ${mins} : ${sec}`
 
         time.innerHTML = formattedTime;
       }
