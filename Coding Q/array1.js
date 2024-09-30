@@ -4,9 +4,17 @@ const output = (data) => {
 
     const out = {}
 
+    // const out = Object.assign({}, ...data); 
+
+    // Object.entries(el).forEach(([key, value]) => {  // Using forEach for clarity
+    //     console.log(key)   // a
+    //     console.log(value)  // 10
+    //     out[key] = value;  // out = {a:10}
+    // });
+
     // for (i of data) {
     //     console.log(i)   // {a:10}
-    data.map((el) => { 
+    data.map((el) => {
         let obj = el
         for (j in obj) {
             console.log(j)   // a

@@ -3,7 +3,7 @@ let num2 = [2,4]
 
 const merged = [...num1, ...num2].sort((a, b) => a - b);
 const len = merged.length;    
-console.log(num1)
+// console.log(num1)
 var median
 if(len%2!=0){
     median = merged[Math.floor(len/2)]
