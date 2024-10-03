@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table Generator</title>
+    <style>
+        td {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <div id="table"></div>
+
+    <script>
+        // Function to generate the table
+        const tableOut = (row, col) => {
+            let html = '<table>';
+            
+            for (let i = 1; i <= row; i++) {
+                html += '<tr>';
+                for (let j = 1; j <= col; j++) {
+                    html += `<td></td>`;
+                }
+                html += '</tr>';
+            }
+            
+            html += '</table>';
+            return html;
+        }
+
+        // Generate and display the table
+        const tableHTML = tableOut(3, 5);
+        document.getElementById('table').innerHTML = tableHTML;
+    </script>
+</body>
+</html>

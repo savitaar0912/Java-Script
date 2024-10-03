@@ -21,10 +21,32 @@ var addTwoNumbers = function(l1, l2) {
     console.log(l3)
     l4=[]
     for(i of l3){
-        console.log(Number(i))
+        // console.log(Number(i))
         l4.push(Number(i))
     }
     console.log(l4)
 };
 
 addTwoNumbers(l1,l2)
+
+
+// add in reverse and give output in an array
+
+// l1 = [2,4,3]
+// l2 = [5,6,4]
+
+// var addTwoNumbers = function(l1, l2) {
+//     // Convert arrays to numbers in reverse order
+//     let num1 = l1.reverse().join('');
+//     let num2 = l2.reverse().join('');
+    
+//     // Calculate the sum
+//     let res = Number(num1) + Number(num2);
+    
+//     // Convert the result to an array in reverse order
+//     let l4 = String(res).split('').reverse().map(Number);
+    
+//     console.log(l4);
+// };
+
+// addTwoNumbers(l1,l2)

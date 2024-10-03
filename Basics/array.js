@@ -40,18 +40,3 @@ console.log(marks)
 let marks2 = [1, 2,3, 7]
 marks = marks.concat(marks2);
 console.log(marks);
-
-let myobj = {
-    'first name': 'savitaar', 
-    channel: 'Codmsavitaar',
-    isActive: true,
-    marks: [1,5,3,6]
-}
-
-// console.log(myobj)
-// ways to target values in object 
-console.log(myobj['first name'])
-console.log(myobj['channel'])
-console.log(myobj.channel)
-console.log(myobj.marks)
-console.log(myobj.isActive)
