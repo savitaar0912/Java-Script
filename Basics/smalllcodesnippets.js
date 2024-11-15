@@ -29,3 +29,30 @@ console.log(8<3<1)
 const newUser = { name: "John Doe", email: "john@example.com" }
 newUser.name = "Jane Doe";
 console.log(newUser)
+
+
+var a1 = 5;
+(function() {
+console.log(a1);
+var a1 = 10;
+})();
+
+console.log(1 === 1 === 2)
+console.log([] == ![])
+
+const person = {name: "shasha" , age: 79}
+person.age = "sadvags"
+console.log(person)
+
+const numbers = [1,2,3,4,5]
+const [first,second,...rest] = numbers
+console.log(first,second,rest)
+
+console.log('Start')
+setTimeout(() => {
+    console.log('Timeout')
+}, 0);
+Promise.resolve().then(()=>{
+    console.log("Promise")
+})
+console.log("End")

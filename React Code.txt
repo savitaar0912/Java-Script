@@ -1,5 +1,7 @@
 1. Search functionality along with the API fetch call, Debouncing, button Focus() concepts using useRef(), map & filter,
 
+COMPONENT.JS:
+
 import React, { useEffect, useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -80,6 +82,33 @@ export default function App() {
       )}
     </div>
   );
+}
+
+STYLE.CSS:
+ 
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black; 
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.tab {
+  border: 1px solid black;
 }
 
 
