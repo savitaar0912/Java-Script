@@ -11,6 +11,11 @@ console.log(0010101) //8^4 + 8^2 + 1
 console.log('2' == [2])
 console.log('2' === [2])
 
+const arr={};
+const arr1=[];
+console.log(typeof(arr))
+console.log(typeof(arr1))
+
 var a
 console.log(a)
 a = 3
