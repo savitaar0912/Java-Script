@@ -1,0 +1,17 @@
+1) Scenario Based - Async Data Fetch and Rendering
+	Create a React component that fetches data from a given API endpoint and renders it as a list.
+ 	The API endpoint returns an array of objects, each containing an name and a email .
+	Implement the React component to fetch the data from the API and display it as a list.
+	API Endpoint: https://jsonplaceholder.typicode.com/users
+
+2) Write a custom hook which can be used to debounce user's input.
+
+3) Managing Focus with useRef
+	Create a React component that includes an input field and a button. When the button is clicked, it should 	focus on the input field.
+	Implement this functionality using the useRef hook. 
+
+Accessibility and vulnerabilities.
+
+code to the above questions:
+---------------------------
+https://stackblitz.com/edit/react-1txlj3?file=src%2FApp.js,src%2FDebounceCheck.js,src%2FExample1.js

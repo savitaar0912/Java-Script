@@ -1,0 +1,63 @@
+//Agile
+1. How do you priotize your task?
+2. If you could not complete any task within sprint timeline, what will be your action?
+3. When Sprit ends, what is your action?
+
+//react.js
+5. There are two api calls, your are passing data from api1 to api2 how will you do it?
+6. What is webpack? how it works?
+7. Explain Redux. (libraries you use in redux)
+8. MFE describe it.
+9. React test cases.
+10. What is style component?
+
+//node.js
+10. What is request object?
+11. What is middleware?
+12. What is event driven programming?
+13. Explain package.json
+
+//javascript
+
+const arr={};
+typeof(arr)   //object
+
+const arr=[];
+typeof(arr) //object
+
+
+const users = [
+    {
+        id:1,
+        name:"Jack",
+        isActive:true,
+      age:50
+    },
+    {
+        id:2,
+        name:"John",
+        isActive:true,
+      age:11
+    },
+    {
+        id:3,
+        name:"Mike",
+        isActive:false
+    }
+    ]
+    
+display the the user whose age is less than 50 and isActive=true
+
+//solution( better to use filter)
+ function getName(){
+         users.map((value,index)=>{
+        if(value.isActive==true && value.age<50){
+            console.log(value.name)
+        }
+    })
+    }
+    
+   getName()
+    
+   
+

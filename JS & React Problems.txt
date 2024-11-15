@@ -1,0 +1,100 @@
+JavaScript Questions
+--------------------
+
+1. Remove duplicates from below array, and provide the possible solutions.
+
+var duplicates = [1, 1, 2, -2, -2, 4, 5, 4, 7, 8, 7, 7, 71, 3, 6, 1, 8, 7, 3, 19, 19, 19];
+
+2. Write a program to get expected output. It should print maximum words from an array to object
+
+var words = ['How is your health', 'what is your native', 'How is your family', 'where your friend', 'is is']
+
+Output: {is: 5, your: 4, How:2}
+
+3. Write a program to show the common letter from an array words.
+
+Input 1: let array = ["Avenger","Average","Avtar"]
+Output 1: Av
+
+Input 2: let array = ["Avenger","Average","Avestal"]
+Output 2: Ave
+
+4. Write a program to print city average from given array.
+
+var array1 = [["Chennai", 1], ["Delhi", 2], ["Bangalore", 3], ["Pune", 4]]
+var array2 = [["Chennai", 3], ["Mumbai", 1], ["Bangalore", 7], ["Pune", 10]]
+
+Output: {  Pune: 7, Bangalore: 5, Chennai: 2, Delhi: 2, Mumbai: 1 }
+
+5. Write a program to print values in sorted without using sort method.
+
+let array = [9,82,6,7,2,-1,0,8,5];
+
+Output: [-1, 0, 2,  5, 6, 7, 8, 9, 82]
+
+6. Write a javascript program to print expected output.
+
+Input: FullName.firstName('Sridhar').lastName('Vinayagam')
+
+Output: Sridhar Vinayagam
+
+7. Write a java script program to print table from given row and column
+
+Input: 3 rows and 5 column
+
+8. Write a program to group by their age.
+
+Input: [{name: 'Sridhar', age: 20},{name: 'Vijay', age: 21},{name: 'Ajith', age: 20},{name: 'Rajini', age: 50},{name: 'Surya', age:21}]
+
+Output:
+{
+20: [{name: 'Sridhar', age: 20},{name: 'Ajith', age: 20}]
+21: [{name: 'Vijay', age: 21},{name: 'Surya', age:21}]
+50: [{name: 'Rajini', age: 50}]
+}
+
+9. Write a program to print sum of the given array.
+
+Input: const sum = [[1,2],[3,4],[5,6,[7,8,9]]]
+Output: 45
+
+10. Create a function to return the longest word in a string
+
+Input: const input = 'Sridhar working as developer in IBM since 2022'
+Output: developer
+
+11. Group the words from array
+
+Input: ['bag', 'gab', 'foo', 'abg', 'oof', 'ofo']
+Output: [["bag", "gab", "abg"], ["foo", "oof", "ofo"]]
+
+12. Write a program to find missing numbers from an array
+
+Input: [1,2,6]
+Output: 3,4,5
+
+
+
+React Questions
+---------------
+1. Create a CRUD operation component.
+	a. Component should have name and email fields.
+	b. Perform CRUD operations by using name and email fields. 
+	c. It should allow us to edit, delete the row in between from list view.
+2. Create a traffic light program with minimal design experience.
+	a. It should have Start and Stop buttons.
+	b. Three colors: Green, Orange, Red to be highlighted one by one in specific time interval as like real traffic lights.
+3. Create A-Z display program
+	a. Create 26 small boxes like 6x6 box model.
+	b. It should allow us to click the small boxes anywhere, Once box is clicked it should print A then it will be disable, If we click second box in somewhere it should print B.
+	c. Likewise it should allow 26 times to fill A-Z in alphabet order.
+4. Create a sample component with pagination.
+	a. Create a sample object and display it list view with pagination.
+	b. Prev, Next buttons should be there along with page number and offset.
+	c. If we click 3 page it should show 21-30 records from list.
+
+
+   
+
+
+
